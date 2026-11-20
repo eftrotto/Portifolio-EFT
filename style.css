@@ -53,3 +53,6 @@ footer{text-align:center;padding:28px;color:var(--mute);font-size:.82rem;border-
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 .card.featured{grid-column:1/-1;border-color:color-mix(in srgb,var(--accent) 45%,var(--line));background:linear-gradient(135deg,var(--panel),color-mix(in srgb,var(--accent) 7%,var(--panel)))}
 .card strong{color:var(--text)}
+.courses{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.courses li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.courses span{color:var(--mute);font-size:.85rem;font-family:'JetBrains Mono',monospace}
